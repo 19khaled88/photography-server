@@ -41,6 +41,9 @@ db
 //parser
 
 //middleware
+app.get('/Test',(req,res)=>{
+  res.send({message:'Server established successfully'})
+})
 app.use('/api/v1', bannerRoute)
 
 
